@@ -1,4 +1,4 @@
-import App from "../../App"
+import App from "../../../App"
 
 const Usuario = (usuario) => {
     return <div>
