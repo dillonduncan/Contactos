@@ -5,6 +5,7 @@ import './App.css'
 import Usuario from './componets/pruebas/usuario/Usuario'
 import Counter from './componets/pruebas/counter/Counter'
 import Text from './componets/pruebas/text/Text'
+import ItemListContainer from './componets/pruebas/consumirJson/ItemListContainer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <div>
         {/* <Usuario nombre="Messi" apodo="Lio" edad={7} /> */}
         {/* <Counter /> */}
-        <Text/>
+        {/* <Text/> */}
+        <ItemListContainer/>
       </div>
     </>
   )
