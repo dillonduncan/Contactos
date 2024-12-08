@@ -6,6 +6,7 @@ import Usuario from './componets/pruebas/usuario/Usuario'
 import Counter from './componets/pruebas/counter/Counter'
 import Text from './componets/pruebas/text/Text'
 import ItemListContainer from './componets/pruebas/consumirJson/ItemListContainer'
+import Pokemon from './componets/pruebas/pokeApi/Pokemon'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         {/* <Usuario nombre="Messi" apodo="Lio" edad={7} /> */}
         {/* <Counter /> */}
         {/* <Text/> */}
-        <ItemListContainer/>
+        {/* <ItemListContainer/> */}
+        <Pokemon/>
       </div>
     </>
   )
